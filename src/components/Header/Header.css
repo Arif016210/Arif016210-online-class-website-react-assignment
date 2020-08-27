@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.img-size{
+    width:100px;
+}
+.header{
+    /* display:flex; */
+    text-align:center;
+    margin:0px;
+    background-color: cadetblue;
+}
+.header nav{
+    background-color: black;
+    line-height: 40px;
+    font-size:25px;
+}
+.header nav a{
+    text-decoration:none;
+    color:white;
+    margin-right: 30px;
+    padding:5px;
+    transition:0.5s linear;
+}
+
+nav a:hover{
+    background-color:grey;
+}
+    
